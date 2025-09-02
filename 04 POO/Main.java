@@ -4,8 +4,8 @@ public class Main {
         
         // Inicio e instancias de la clase Empleado
         System.out.println("--- Sistema de Empleados ---\n");
-        Empleado emp1 = new Empleado(12, "Abel", "Desarrollador", 2500.0);
-        Empleado emp2 = new Empleado("Cele", "Maestra de Arte");
+        Empleado emp1 = new Empleado(12, "Abel", "Developer", 2500.0);
+        Empleado emp2 = new Empleado("Cele", "Designer");
         Empleado emp3 = new Empleado(24, "Jere", "Tester", 2000.0);
 
         // Mostrar empleados creados y la cantidad total
@@ -20,9 +20,9 @@ public class Main {
         emp2.actualizarSalario(20);      // Tipo de dato int: Aumenta un 20%
         emp3.actualizarSalario(-500.0);  // ERROR: Cantidad fija negativa
         emp3.actualizarSalario(500.0);   // Tipo de dato double: Aumenta $500
-        System.out.println("Después de aumentos:");
-        System.out.println("- Cele después de 20%: " + emp2);
-        System.out.println("- Jere después de 500.0: " + emp3);
+        System.out.println("Luego de aumentos:");
+        System.out.println("- Aumento del 20% para Cele: " + emp2);
+        System.out.println("- Aumento de $500.0 para Jere: " + emp3);
 
     }
     
